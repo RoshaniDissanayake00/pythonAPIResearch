@@ -6,7 +6,6 @@ import tensorflow as tf
 import tensorflow_datasets as tfds
 import os
 
-#testing
 app = Flask(__name__)
 
 model_path = os.path.join(os.path.dirname(__file__), 'dcnn_model.h5')
